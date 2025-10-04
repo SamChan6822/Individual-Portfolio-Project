@@ -15,7 +15,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
-    motionNodeName: 
+    motionNodeName: mixamorig:Hips
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -33,7 +33,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: mixamo.com
+      name: 8
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
