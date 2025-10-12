@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LastSlash_M_1
+  m_Name: LastSlash_M_3
   m_Shader: {fileID: 4800000, guid: 82c5e858a7c4ffb4a82120bd9e66694e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -110,7 +110,7 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: f334d4ee180308f4ca3581d29b75297e, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0.25}
+        m_Offset: {x: 0, y: 0.21}
     - _MainTex1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -446,8 +446,8 @@ Material:
     - _AddTexRefine: {r: 1, g: 1, b: 2, a: 0}
     - _BackFaceColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 1, g: 0.43280405, b: 0, a: 1}
-    - _Color2: {r: 1, g: 0.4938477, b: 0, a: 1}
+    - _Color1: {r: 0, g: 0, b: 0, a: 1}
+    - _Color2: {r: 0.13333334, g: 0.027450982, b: 0.003921569, a: 1}
     - _DIssloveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0}
     - _Dir: {r: 0, g: 0, b: 0, a: 0}
