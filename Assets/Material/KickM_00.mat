@@ -289,9 +289,9 @@ Material:
     - _Float19: 0
     - _Float2: 0
     - _Float20: 0.02
-    - _Float23: 2
+    - _Float23: 1.04
     - _Float24: 0
-    - _Float25: 0.51
+    - _Float25: 1.24
     - _Float26: 0
     - _Float27: 0
     - _Float28: 0
@@ -445,7 +445,7 @@ Material:
     - _BackFaceColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
-    - _Color2: {r: 1, g: 1, b: 1, a: 0.84313726}
+    - _Color2: {r: 0.8745099, g: 0.06666667, b: 0, a: 0.84313726}
     - _DIssloveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0}
     - _Dir: {r: 0, g: 0, b: 0, a: 0}
