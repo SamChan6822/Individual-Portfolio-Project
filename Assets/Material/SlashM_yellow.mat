@@ -291,7 +291,7 @@ Material:
     - _Float19: 0
     - _Float2: 0
     - _Float20: 0.06
-    - _Float23: 2
+    - _Float23: 5.38
     - _Float24: 0
     - _Float25: 2
     - _Float26: 0
@@ -461,3 +461,4 @@ Material:
     - _TexCenter: {r: 0, g: 0, b: 0, a: 0}
     - _fnl_color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -8,12 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SlashM_00
-  m_Shader: {fileID: 4800000, guid: 446de4ba36021554a94eb3e445fa294c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 82c5e858a7c4ffb4a82120bd9e66694e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FACE_Y
-  - _MAINTEXUVS_NORMAL
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _ADDMASKRGBA_A
   - _ALPHAADD_ON
@@ -23,17 +21,21 @@ Material:
   - _DISTORTADDTEX_ON
   - _DISTORTMASKTEXAR_ON
   - _DISTORTTEXAR_ON
+  - _FACE_Y
   - _IFADDTEXCOLOR_ON
   - _IFDISSOLVECOLOR_ON
   - _MAINA_A
   - _MAINPUV_OFF
+  - _MAINTEXUVS_NORMAL
   - _MASKALPHARA_ON
   - _MASKBLEND_MULTIPLY
   - _MASKPLUSAR_ON
   - _MASKRGBA_A
+  - _TOGGLESWITCH0_ON
+  - _TOGGLESWITCH4_ON
+  - _TOGGLESWITCH5_ON
   - _VTOAR_ON
   - _VTOMASKAR_ON
-  - _ZWRTTEMODE2_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -81,9 +83,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8845e401b086ba140a01aaa0e98fa8d8, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: -1.59, y: 0.12}
     - _DistortMaskTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -93,11 +95,11 @@ Material:
         m_Scale: {x: 2.53, y: 1.45}
         m_Offset: {x: 1.84, y: 0.48}
     - _Distortion1Tex1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 89f2a57aa674eed42aa732a9a3c9a982, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Distortion2Tex1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4f890b67c2b2e2c4caa0276336319683, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -105,9 +107,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 225cde8b79ab733409cb2ec5ce4d5f67, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 3d0b74dcc36470f429f17863ed3e6e70, type: 3}
+        m_Scale: {x: 1, y: 3.52}
+        m_Offset: {x: 0, y: 0.18}
     - _MainTex1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -121,8 +123,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: f89618826d23d2947ac07e4849e3159d, type: 3}
+        m_Scale: {x: 1, y: 0.97}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -186,7 +188,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Distortion2U: 0
+    - Distortion2U: 0.21
     - _AddMaskIntensity: 1
     - _AddMaskPolar: 0
     - _AddMaskRGBA: 0
@@ -267,11 +269,11 @@ Material:
     - _DistortTexAR: 1
     - _DistortTex_Uspeed: -4.57
     - _DistortTex_Vspeed: 0
-    - _Distortion1: 0
-    - _Distortion1U: 0
-    - _Distortion1V: 0
-    - _Distortion2: 0
-    - _Distortion2V: 0
+    - _Distortion1: 1
+    - _Distortion1U: -0.18
+    - _Distortion1V: -0.64
+    - _Distortion2: 1
+    - _Distortion2V: 0.72
     - _Dst: 1
     - _DstBlend: 0
     - _FNLfanxiangkaiguan: 0
@@ -279,24 +281,24 @@ Material:
     - _Fail: 0
     - _Float1: 0
     - _Float10: 1
-    - _Float11: 0
+    - _Float11: 172
     - _Float12: 0
     - _Float15: 0
     - _Float16: 0
     - _Float17: 0
-    - _Float18: 360
+    - _Float18: 270
     - _Float19: 0
     - _Float2: 0
-    - _Float20: 0
-    - _Float23: 1
+    - _Float20: 0.06
+    - _Float23: 42.64
     - _Float24: 0
     - _Float25: 1
     - _Float26: 0
     - _Float27: 0
     - _Float28: 0
     - _Float29: 0
-    - _Float5: 0.4784614
-    - _Float6: 0.15
+    - _Float5: 0.287
+    - _Float6: 0.023
     - _Float7: 0
     - _Float9: 0.5
     - _Foldout1: 1
@@ -339,7 +341,7 @@ Material:
     - _MainTex_rotat: 270
     - _MaintexC: 0
     - _MaintexCV: 0
-    - _Mask1Rotation1: 0
+    - _Mask1Rotation1: 270
     - _Mask1U1: 0
     - _Mask1V1: 0
     - _MaskAlphaRA: 1
@@ -396,11 +398,11 @@ Material:
     - _StaticNormalScale: 0
     - _StencilStyle: 0
     - _Toggle1: 0
-    - _ToggleSwitch0: 0
+    - _ToggleSwitch0: 1
     - _ToggleSwitch1: 0
     - _ToggleSwitch3: 0
-    - _ToggleSwitch4: 0
-    - _ToggleSwitch5: 0
+    - _ToggleSwitch4: 1
+    - _ToggleSwitch5: 1
     - _ToggleSwitch6: 0
     - _UVSec: 0
     - _VATFrameC1: 1
@@ -426,7 +428,7 @@ Material:
     - _ZWrite: 1
     - _Ztest: 4
     - _Zwrite: 0
-    - _ZwrtteMode2: 1
+    - _ZwrtteMode2: 0
     - __dirty: 1
     - _fnl_power: 1
     - _fnl_sacle: 0
@@ -443,7 +445,7 @@ Material:
     - _AddTexRefine: {r: 1, g: 1, b: 2, a: 0}
     - _BackFaceColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0.50261366, b: 0, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _DIssloveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0}
@@ -458,3 +460,4 @@ Material:
     - _TexCenter: {r: 0, g: 0, b: 0, a: 0}
     - _fnl_color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
