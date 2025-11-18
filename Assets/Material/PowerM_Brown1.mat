@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RoundM_01 1
+  m_Name: PowerM_Brown1
   m_Shader: {fileID: 4800000, guid: 82c5e858a7c4ffb4a82120bd9e66694e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -33,6 +33,7 @@ Material:
   - _MASKRGBA_A
   - _TOGGLESWITCH0_ON
   - _TOGGLESWITCH4_ON
+  - _TOGGLESWITCH5_ON
   - _VTOAR_ON
   - _VTOMASKAR_ON
   m_LightmapFlags: 4
@@ -82,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveTex:
-        m_Texture: {fileID: 2800000, guid: 8845e401b086ba140a01aaa0e98fa8d8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6644ac6ec888a184d9c92e59ac800af3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistortMaskTex:
@@ -94,11 +95,11 @@ Material:
         m_Scale: {x: 2.53, y: 1.45}
         m_Offset: {x: 1.84, y: 0.48}
     - _Distortion1Tex1:
-        m_Texture: {fileID: 2800000, guid: 89f2a57aa674eed42aa732a9a3c9a982, type: 3}
-        m_Scale: {x: 1.78, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Distortion2Tex1:
-        m_Texture: {fileID: 2800000, guid: 4f890b67c2b2e2c4caa0276336319683, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -106,9 +107,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7aa8cd7c58834f84d899fbdce768c13c, type: 3}
+        m_Texture: {fileID: 2800000, guid: a7f59e735ef48a547ac8dd5908744719, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0.87, y: 0}
     - _MainTex1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -122,9 +123,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex2:
-        m_Texture: {fileID: 2800000, guid: 878ce137befa6084db917fb0c0729191, type: 3}
-        m_Scale: {x: 2, y: 0.82}
-        m_Offset: {x: 0.01, y: 0}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1.36}
+        m_Offset: {x: 0, y: -0.01}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -187,7 +188,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Distortion2U: 0
+    - Distortion2U: 0.11
     - _AddMaskIntensity: 1
     - _AddMaskPolar: 0
     - _AddMaskRGBA: 0
@@ -269,10 +270,10 @@ Material:
     - _DistortTex_Uspeed: -4.57
     - _DistortTex_Vspeed: 0
     - _Distortion1: 1
-    - _Distortion1U: 0
-    - _Distortion1V: 0.03
+    - _Distortion1U: -0.3
+    - _Distortion1V: -0.09
     - _Distortion2: 1
-    - _Distortion2V: 0.27
+    - _Distortion2V: 0.25
     - _Dst: 1
     - _DstBlend: 0
     - _FNLfanxiangkaiguan: 0
@@ -280,26 +281,26 @@ Material:
     - _Fail: 0
     - _Float1: 0
     - _Float10: 1
-    - _Float11: 172
-    - _Float12: 0
+    - _Float11: 82
+    - _Float12: 1.82
     - _Float15: 0
-    - _Float16: 0.39
+    - _Float16: 0
     - _Float17: 0
     - _Float18: 0
     - _Float19: 0
-    - _Float2: 0
-    - _Float20: 0.12
-    - _Float23: 4.49
+    - _Float2: 0.62
+    - _Float20: 0
+    - _Float23: 2
     - _Float24: 0
-    - _Float25: 0.65
+    - _Float25: 1
     - _Float26: 0
     - _Float27: 0
     - _Float28: 0
     - _Float29: 0
-    - _Float5: 0
-    - _Float6: 0.193
-    - _Float7: 0
-    - _Float9: 0.52
+    - _Float5: 0.287
+    - _Float6: 0.106
+    - _Float7: -0.54
+    - _Float9: 0.508
     - _Foldout1: 1
     - _Foldout2: 1
     - _GlossMapScale: 1
@@ -340,8 +341,8 @@ Material:
     - _MainTex_rotat: 270
     - _MaintexC: 0
     - _MaintexCV: 0
-    - _Mask1Rotation1: 90
-    - _Mask1U1: 0
+    - _Mask1Rotation1: 0
+    - _Mask1U1: 0.62
     - _Mask1V1: 0
     - _MaskAlphaRA: 1
     - _MaskBlend: 0
@@ -401,7 +402,7 @@ Material:
     - _ToggleSwitch1: 0
     - _ToggleSwitch3: 0
     - _ToggleSwitch4: 1
-    - _ToggleSwitch5: 0
+    - _ToggleSwitch5: 1
     - _ToggleSwitch6: 0
     - _UVSec: 0
     - _VATFrameC1: 1
@@ -445,7 +446,7 @@ Material:
     - _BackFaceColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
-    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color2: {r: 0.13333334, g: 0.02745098, b: 0.003921569, a: 1}
     - _DIssloveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0}
     - _Dir: {r: 0, g: 0, b: 0, a: 0}

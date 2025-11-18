@@ -17,6 +17,7 @@ Material:
   - _EMISSION
   - _SURFACE_TYPE_TRANSPARENT
   - _TOGGLESWITCH0_ON
+  - _TOGGLESWITCH1_ON
   - _TOGGLESWITCH4_ON
   - _TOGGLESWITCH5_ON
   m_LightmapFlags: 0
@@ -312,7 +313,7 @@ Material:
     - _Fail: 0
     - _FlipbookMode: 0
     - _Float1: 91
-    - _Float10: 2
+    - _Float10: 0.58
     - _Float11: 0
     - _Float12: 0
     - _Float15: 0
@@ -330,7 +331,7 @@ Material:
     - _Float28: 0
     - _Float29: 0
     - _Float5: 0.287
-    - _Float6: 0.052
+    - _Float6: 0.48
     - _Float7: 0
     - _Float9: 0.5
     - _Foldout1: 1
@@ -445,7 +446,7 @@ Material:
     - _Surface: 1
     - _Toggle1: 0
     - _ToggleSwitch0: 1
-    - _ToggleSwitch1: 0
+    - _ToggleSwitch1: 1
     - _ToggleSwitch3: 0
     - _ToggleSwitch4: 1
     - _ToggleSwitch5: 1
@@ -494,8 +495,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
-    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0.13333334, b: 0, a: 1}
+    - _Color2: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _DIssloveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0}

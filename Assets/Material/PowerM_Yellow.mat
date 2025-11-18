@@ -36,6 +36,7 @@ Material:
   - _TOGGLESWITCH5_ON
   - _VTOAR_ON
   - _VTOMASKAR_ON
+  - _ZWRTTEMODE2_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -290,9 +291,9 @@ Material:
     - _Float19: 0
     - _Float2: 0.62
     - _Float20: 0
-    - _Float23: 14.69
+    - _Float23: 5
     - _Float24: 0
-    - _Float25: 0.22
+    - _Float25: 2
     - _Float26: 0
     - _Float27: 0
     - _Float28: 0
@@ -428,7 +429,7 @@ Material:
     - _ZWrite: 1
     - _Ztest: 4
     - _Zwrite: 0
-    - _ZwrtteMode2: 0
+    - _ZwrtteMode2: 1
     - __dirty: 1
     - _fnl_power: 1
     - _fnl_sacle: 0
