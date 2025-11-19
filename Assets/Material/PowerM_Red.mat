@@ -123,9 +123,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1.36}
-        m_Offset: {x: 0, y: -0.01}
+        m_Texture: {fileID: 2800000, guid: 878ce137befa6084db917fb0c0729191, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 4.2}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -188,7 +188,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Distortion2U: 0.11
+    - Distortion2U: 0
     - _AddMaskIntensity: 1
     - _AddMaskPolar: 0
     - _AddMaskRGBA: 0
@@ -273,15 +273,15 @@ Material:
     - _Distortion1U: -0.3
     - _Distortion1V: -0.09
     - _Distortion2: 1
-    - _Distortion2V: 0.25
+    - _Distortion2V: 0
     - _Dst: 1
     - _DstBlend: 0
     - _FNLfanxiangkaiguan: 0
     - _Face: 1
     - _Fail: 0
-    - _Float1: 0
+    - _Float1: 178
     - _Float10: 1
-    - _Float11: 82
+    - _Float11: 90
     - _Float12: 1.82
     - _Float15: 0
     - _Float16: 0
@@ -341,9 +341,9 @@ Material:
     - _MainTex_rotat: 270
     - _MaintexC: 0
     - _MaintexCV: 0
-    - _Mask1Rotation1: 0
-    - _Mask1U1: 0.62
-    - _Mask1V1: 0
+    - _Mask1Rotation1: 90
+    - _Mask1U1: 0.71
+    - _Mask1V1: 0.62
     - _MaskAlphaRA: 1
     - _MaskBlend: 0
     - _MaskC: 0
